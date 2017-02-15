@@ -113,11 +113,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-
 export PS1="\[\033[38;5;40m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;40m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]\\$ \[$(tput sgr0)\]"
 export DISPLAY=localhost:0.0
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
