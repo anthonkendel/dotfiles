@@ -1,6 +1,8 @@
 [user]
-	email = anthon.kendel@gmail.com
-	name = Anthon Holmqvist
+	email =
+	name =
+[github]
+	user = 
 [color]
     branch = auto
     diff = auto
