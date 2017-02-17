@@ -4,6 +4,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+alias cl='clear'
+
 # ls aliases
 alias ls='ls --color=auto'
 alias ll='ls -alF'
