@@ -2,7 +2,7 @@
 	email =
 	name =
 [github]
-	user = 
+	user =
 [color]
     branch = auto
     diff = auto
@@ -22,5 +22,7 @@
 [alias]
     ci = commit
     co = checkout
+	ba = branch -a
+	br = branch
     st = status -sb
     lg = log --graph --pretty=format:'%C(bold red)%h%C(reset) ---%C(yellow)%d%C(reset) %s %C(bold green)(%cr)%C(reset) %C(bold blue)by%C(reset) %cn, %cE'
