@@ -18,6 +18,7 @@
     default = current
 [core]
     autocrlf = input
+	editor = vi
     pager = less -SE
 [alias]
     ci = commit
