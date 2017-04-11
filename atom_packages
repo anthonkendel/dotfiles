@@ -6,13 +6,13 @@ color-picker@2.2.5
 markdown-pdf@1.5.0
 markdown-preview-plus@2.4.9
 markdown-scroll-sync@2.1.2
-minimap@4.26.8
+minimap@4.27.1
 minimap-pigments@0.2.2
-nord-atom-syntax@0.6.0
-pdf-view@0.56.0
+nord-atom-syntax@0.7.0
+pdf-view@0.57.0
 pigments@0.39.1
-pretty-json@1.6.1
+pretty-json@1.6.3
 qolor@0.4.1
-ramda-syntax@0.12.0
+ramda-syntax@1.0.3
 tidy-markdown@3.0.1
 
