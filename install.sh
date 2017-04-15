@@ -2,7 +2,7 @@
 
 home=~/
 old_dotfiles="old_dotfiles"
-dotfiles=".bashrc .bash_profile .bash_aliases .profile .gitconfig"
+dotfiles=".bash_aliases .bash_profile .bashrc .gitconfig .profile"
 
 git_fullname=""
 git_email=""
@@ -40,6 +40,7 @@ read -p "Install atom_packages (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         apm install --packages-file atom_packages
+        echo "Done"
     ;;
     * )
     ;;
