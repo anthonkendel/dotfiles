@@ -1,8 +1,5 @@
-[user]
-	email =
-	name =
-[github]
-	user =
+[include]
+	path = .gitconfig.local
 [color]
     branch = auto
     diff = auto
