@@ -5,6 +5,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 alias cl='clear'
+alias xx='exit'
 
 # ls aliases
 alias ls='ls --color=auto'

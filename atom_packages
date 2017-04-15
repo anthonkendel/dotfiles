@@ -3,16 +3,19 @@ atom-material-syntax@1.0.2
 atom-material-ui@1.3.9
 atom-typescript@11.0.1
 color-picker@2.2.5
+linter@2.1.4
+markdown-folder@0.5.0
 markdown-pdf@1.5.0
 markdown-preview-plus@2.4.9
 markdown-scroll-sync@2.1.2
 minimap@4.27.1
 minimap-pigments@0.2.2
-nord-atom-syntax@0.7.0
+nord-atom-syntax@0.9.1
 pdf-view@0.57.0
 pigments@0.39.1
 pretty-json@1.6.3
 qolor@0.4.1
 ramda-syntax@1.0.3
 tidy-markdown@3.0.1
+uglify-html@2.0.0
 
