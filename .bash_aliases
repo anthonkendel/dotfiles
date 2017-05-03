@@ -24,5 +24,10 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # docker alias
+alias dm='docker-machine'
+alias dms='docker-machine ssh'
+alias dmf='docker-machine scp'
+
 alias dost='docker stop $(docker ps -a -q)'
 alias dorm='docker rm $(docker ps -a -q)'
+alias dormi='docker rm $(docker ps -a -q)'
