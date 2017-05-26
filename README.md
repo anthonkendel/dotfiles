@@ -1,16 +1,19 @@
 # Dotfiles
 
-File            | Description
---------------- | ----------------------------------------------------------------------------------------------------------------------
-`.bash_aliases` | All bash aliases is seperated into its own file.
-`.bash_profile` | Bash configurations. _Some configurations is picked up from other repositories and some configurations is done by me._
-`.gitconfig`    | Git configurations and git aliases.
-`.bashrc`       | Sources `.bash_profile` if it exists.
-`.profile`      | Sources `.bash_profile` if it exists.
-`atom_packages` | All atom packages.
+File                     | Description
+------------------------ | ----------------------------------------------------------------------------------------------------------------------
+`.bash_aliases`          | All bash aliases is seperated into its own file.
+`.bash_profile`          | Bash configurations. _Some configurations is picked up from other repositories and some configurations is done by me._
+`.bashrc`                | Sources `.bash_profile` if it exists.
+`.gitconfig`             | Git configurations and git aliases.
+`.profile`               | Sources `.bash_profile` if it exists.
+`atom_packages`          | All atom packages.
+`install.sh`             | Installs dotfiles.
+`jetbrains_settings.jar` | JetBrains IDE:s setttings.
+`Software.md`            | List of useful software.
 
 All dotfiles (starts with `.`) should be moved to your home directory.<br>
-Check your home directory with these commands:
+Check were your home directory is located with these commands:
 
 Windows (cmd/powershell)
 
