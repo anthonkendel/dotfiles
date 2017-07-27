@@ -32,3 +32,5 @@ Atom packages is installed with the following command:
 ```bash
 apm install --packages-file atom_packages
 ```
+
+All dotfiles can be installed with `./install.sh` which moves the existing dotfiles into a folder named *old_dotfiles* in your home directory.
