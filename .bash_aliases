@@ -30,4 +30,4 @@ alias dmf='docker-machine scp'
 
 alias dost='docker stop $(docker ps -a -q)'
 alias dorm='docker rm $(docker ps -a -q)'
-alias dormi='docker rmi $(docker ps -a -q)'
+alias dormi='docker rmi $(docker images -q)'
