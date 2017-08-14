@@ -6,6 +6,7 @@ File                     | Description
 `.bash_profile`          | Bash configurations. _Some configurations is picked up from other repositories and some configurations is done by me._
 `.bashrc`                | Sources `.bash_profile` if it exists.
 `.gitconfig`             | Git configurations and git aliases.
+`.hyper.js`              | hyperterm configuration.
 `.profile`               | Sources `.bash_profile` if it exists.
 `atom_packages`          | All atom packages.
 `install.sh`             | Installs dotfiles.

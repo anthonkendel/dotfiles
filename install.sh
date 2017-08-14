@@ -2,7 +2,7 @@
 
 home=~/
 old_dotfiles="old_dotfiles"
-dotfiles=".bash_aliases .bash_profile .bashrc .gitconfig .profile"
+dotfiles=".bash_aliases .bash_profile .bashrc .gitconfig .profile .hyper.js"
 
 git_fullname=""
 git_email=""
