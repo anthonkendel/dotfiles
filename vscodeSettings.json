@@ -1,0 +1,18 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "window.restoreWindows": "all",
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Darcula",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#212121",
+        "statusBar.background": "#212121"
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "atomKeymap.promptV3Features": true
+}
