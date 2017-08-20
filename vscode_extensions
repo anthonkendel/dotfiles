@@ -1,7 +1,9 @@
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+eamodio.gitlens
 ecmel.vscode-html-css
 eg2.tslint
+eriklynd.json-tools
 hnw.vscode-auto-open-markdown-preview
 HookyQR.beautify
 ms-vscode.atom-keybindings
@@ -10,4 +12,3 @@ PeterJausovec.vscode-docker
 redhat.java
 robertohuertasm.vscode-icons
 rokoroku.vscode-theme-darcula
-zhuangtongfa.Material-theme

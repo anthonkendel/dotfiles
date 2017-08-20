@@ -1,6 +1,7 @@
 {
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
+    "editor.fontFamily": "'Roboto Mono', 'Consolas', monospace",    
     "window.restoreWindows": "all",
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
