@@ -11,7 +11,5 @@
         "activityBar.background": "#212121",
         "statusBar.background": "#212121"
     },
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "atomKeymap.promptV3Features": true,
-    "window.zoomLevel": 1
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
