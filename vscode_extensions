@@ -1,12 +1,13 @@
-alefragnani.project-manager
+christian-kohler.npm-intellisense
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+donjayamanne.python
 eamodio.gitlens
 ecmel.vscode-html-css
 eg2.tslint
+eg2.vscode-npm-script
 eriklynd.json-tools
 fknop.vscode-npm
-hnw.vscode-auto-open-markdown-preview
 HookyQR.beautify
 k--kato.intellij-idea-keybindings
 octref.vetur
@@ -14,3 +15,5 @@ PeterJausovec.vscode-docker
 redhat.java
 robertohuertasm.vscode-icons
 rokoroku.vscode-theme-darcula
+smlombardi.darcula-extended
+tht13.python
