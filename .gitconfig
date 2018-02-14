@@ -25,3 +25,5 @@
 	br = branch
     st = status -b
     lg = log --graph --pretty=format:'%C(bold red)%h%C(reset) ---%C(yellow)%d%C(reset) %s %C(bold green)(%cr)%C(reset) %C(bold blue)by%C(reset) %cn, %cE'
+    pur = pull --rebase
+	cah = commit --amend -C HEAD
