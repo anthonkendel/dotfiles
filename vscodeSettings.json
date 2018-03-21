@@ -1,7 +1,10 @@
 {
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', 'Fira Mono', 'Consolas'",
     "window.restoreWindows": "all",
+    "window.openFoldersInNewWindow": "on",
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Darcula",
     "workbench.iconTheme": "vscode-icons",
@@ -11,5 +14,12 @@
         "activityBar.background": "#212121",
         "statusBar.background": "#212121"
     },
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "window.zoomLevel": 0,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "gitlens.keymap": "alternate"
 }

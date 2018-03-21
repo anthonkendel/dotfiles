@@ -1,13 +1,14 @@
 christian-kohler.npm-intellisense
 crisward.riot-tag
 DavidAnson.vscode-markdownlint
+dbaeumer.jshint
 dbaeumer.vscode-eslint
 eamodio.gitlens
 ecmel.vscode-html-css
+EditorConfig.EditorConfig
 eg2.tslint
 eg2.vscode-npm-script
 eriklynd.json-tools
-fknop.vscode-npm
 HookyQR.beautify
 idleberg.emoji-code
 k--kato.intellij-idea-keybindings
@@ -18,5 +19,3 @@ PeterJausovec.vscode-docker
 redhat.java
 robertohuertasm.vscode-icons
 rokoroku.vscode-theme-darcula
-smlombardi.darcula-extended
-tht13.python
