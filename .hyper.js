@@ -8,7 +8,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: '"Roboto Mono", Consolas, monospace',
+    fontFamily: '"Fira Code", "Fira Mono", "Consolas"',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(116, 167, 255, 0.8)',
