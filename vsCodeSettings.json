@@ -5,7 +5,7 @@
     "editor.fontFamily": "'Fira Code', 'Fira Mono', 'Consolas'",
     "window.restoreWindows": "all",
     "window.openFoldersInNewWindow": "on",
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "visible",
     "workbench.colorTheme": "Darcula",
     "workbench.iconTheme": "vscode-icons",
     "workbench.activityBar.visible": true,
@@ -21,5 +21,11 @@
         "javascriptreact",
         "vue"
     ],
-    "gitlens.keymap": "alternate"
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary"
 }
