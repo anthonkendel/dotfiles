@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 home=~/
 old_dotfiles="old_dotfiles"
