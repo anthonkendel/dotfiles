@@ -27,20 +27,22 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# prompt colors
-MAGENTA=$(tput setaf 5)
-BLUE=$(tput setaf 4)
-GREEN=$(tput setaf 2)
-PURPLE=$(tput setaf 1)
-BOLD=$(tput bold)
-RESET=$(tput sgr0)
+if [[ $- == *i* ]]; then
+  # prompt colors
+  MAGENTA=$(tput setaf 5)
+  BLUE=$(tput setaf 4)
+  GREEN=$(tput setaf 2)
+  PURPLE=$(tput setaf 1)
+  BOLD=$(tput bold)
+  RESET=$(tput sgr0)
 
-export MAGENTA
-export BLUE
-export GREEN
-export PURPLE
-export BOLD
-export RESET
+  export MAGENTA
+  export BLUE
+  export GREEN
+  export PURPLE
+  export BOLD
+  export RESET
+fi
 
 # Git branch details
 function parse_git_dirty() {
