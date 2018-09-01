@@ -7,7 +7,7 @@
     "window.openFoldersInNewWindow": "on",
     "window.menuBarVisibility": "visible",
     "workbench.colorTheme": "Darcula",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "vs-seti",
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
@@ -27,5 +27,7 @@
     },
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 2,
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "search.location": "panel",
+    "workbench.view.alwaysShowHeaderActions": true
 }
