@@ -29,5 +29,8 @@
     "editor.tabSize": 2,
     "editor.renderWhitespace": "boundary",
     "search.location": "panel",
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
+    "breadcrumbs.enabled": true,
+    "window.titleBarStyle": "custom",
+    "window.title": "${dirty}${separator}${activeEditorLong}${separator}${rootName}"
 }
