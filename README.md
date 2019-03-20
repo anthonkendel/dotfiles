@@ -9,5 +9,5 @@
 | `.profile`               | Sources `.bash_profile` if it exists.                                                                                  |
 | `vscode_extensions`      | All vscode extensions.                                                                                                 |
 | `install.sh`             | Installs dotfiles.                                                                                                     |
-| `vscodeSettings.json`         | User settings for vscode.                                                                                              |
+| `vscodeSettings.json`    | User settings for vscode.                                                                                              |
 | `jetbrains_settings.jar` | JetBrains IDE:s setttings.                                                                                             |
