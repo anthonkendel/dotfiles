@@ -6,7 +6,6 @@ dbaeumer.vscode-eslint
 eamodio.gitlens
 ecmel.vscode-html-css
 EditorConfig.EditorConfig
-eg2.tslint
 eg2.vscode-npm-script
 eriklynd.json-tools
 esbenp.prettier-vscode
@@ -14,6 +13,7 @@ HookyQR.beautify
 idleberg.emoji-code
 k--kato.intellij-idea-keybindings
 ms-python.python
+ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
 octref.vetur
 PeterJausovec.vscode-docker
