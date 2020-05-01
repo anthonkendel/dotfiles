@@ -1,36 +1,60 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code', 'Fira Mono', 'Consolas'",
-    "window.restoreWindows": "all",
-    "window.openFoldersInNewWindow": "on",
-    "window.menuBarVisibility": "visible",
-    "workbench.colorTheme": "Darcula",
-    "workbench.iconTheme": "vs-seti",
-    "workbench.activityBar.visible": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#212121",
-        "statusBar.background": "#212121"
-    },
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "window.zoomLevel": 0,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue"
-    ],
-    "gitlens.keymap": "chorded",
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "workbench.editor.enablePreview": false,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "boundary",
-    "search.location": "panel",
-    "workbench.view.alwaysShowHeaderActions": true,
-    "breadcrumbs.enabled": true,
-    "window.titleBarStyle": "custom",
-    "window.title": "${dirty}${separator}${activeEditorLong}${separator}${rootName}"
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "'Fira Code', 'Fira Mono', 'Consolas'",
+  "editor.fontLigatures": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "boundary",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "gitlens.advanced.messages": { "suppressShowKeyBindingsNotice": true },
+  "gitlens.keymap": "chorded",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.menuBarVisibility": "visible",
+  "window.openFoldersInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "window.title": "${dirty}${separator}${activeEditorMedium}${separator}${rootName}",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#212121",
+    "statusBar.background": "#212121"
+  },
+  "workbench.colorTheme": "Darcula",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vs-seti",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.view.alwaysShowHeaderActions": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  }
 }
