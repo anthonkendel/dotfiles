@@ -1,0 +1,47 @@
+{
+  "name": "dotfiles",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Configuration files a.k.a dotfiles",
+  "main": "index.js",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "lint:fix": "npm run prettier:write",
+    "lint": "npm run prettier:check",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonkendel/dotfiles.git"
+  },
+  "keywords": [
+    "dotfiles",
+    "anthonkendel"
+  ],
+  "author": "Anthon <anthon.kendel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonkendel/dotfiles/issues"
+  },
+  "homepage": "https://github.com/anthonkendel/dotfiles#readme",
+  "devDependencies": {
+    "@arbetsmyra/commitlint-config": "^1.0.0",
+    "@arbetsmyra/prettier-config": "^1.1.0",
+    "@commitlint/cli": "^8.3.5",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "commitlint": {
+    "extends": [
+      "@arbetsmyra"
+    ]
+  },
+  "prettier": "@arbetsmyra/prettier-config",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint:fix"
+    }
+  }
+}
