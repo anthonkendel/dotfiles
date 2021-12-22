@@ -58,3 +58,13 @@ symbol='$ '
 
 export PS1="\[${MAGENTA}\]\u \[$RESET\]in \[$GREEN\]\w\[$RESET\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$BLUE\]\$(parse_git_branch)\[$RESET\]"$'\n$symbol\[$RESET\]'
 export PS2="\[$RED\]→ \[$RESET\]"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# FZF
+# source /usr/share/doc/fzf/examples/key-bindings.bash
+# source /usr/share/doc/fzf/examples/completion.bash
+export FZF_DEFAULT_OPTS='--height 30% --border'
