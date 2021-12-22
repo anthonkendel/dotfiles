@@ -2,16 +2,14 @@
 
 Configuration files a.k.a dotfiles
 
-| File                     | Description                                                                                          |
-| ------------------------ | ---------------------------------------------------------------------------------------------------- |
-| `.bash_aliases`          | All bash aliases is seperated into its own file.                                                     |
-| `.bash_profile`          | Bash configurations. _Some configurations is picked up from other repositories and some done by me._ |
-| `.bashrc`                | Sources `.bash_profile` if it exists.                                                                |
-| `.gitconfig`             | Git configurations and git aliases.                                                                  |
-| `.profile`               | Sources `.bash_profile` if it exists.                                                                |
-| `install.bash`           | Installs dotfiles.                                                                                   |
-| `vscode_extensions`      | All vscode extensions.                                                                               |
-| `vscodeSettings.json`    | User settings for vscode.                                                                            |
+| File            | Description                                                                                          |
+| --------------- | ---------------------------------------------------------------------------------------------------- |
+| `.bash_aliases` | All bash aliases is seperated into its own file.                                                     |
+| `.bash_profile` | Bash configurations. _Some configurations is picked up from other repositories and some done by me._ |
+| `.bashrc`       | Sources `.bash_profile` if it exists.                                                                |
+| `.gitconfig`    | Git configurations and git aliases.                                                                  |
+| `.profile`      | Sources `.bash_profile` if it exists.                                                                |
+| `install.bash`  | Installs dotfiles.                                                                                   |
 
 ## Development
 
