@@ -10,7 +10,6 @@ Configuration files a.k.a dotfiles
 | `.gitconfig`             | Git configurations and git aliases.                                                                  |
 | `.profile`               | Sources `.bash_profile` if it exists.                                                                |
 | `install.bash`           | Installs dotfiles.                                                                                   |
-| `jetbrains_settings.jar` | JetBrains IDE:s setttings.                                                                           |
 | `vscode_extensions`      | All vscode extensions.                                                                               |
 | `vscodeSettings.json`    | User settings for vscode.                                                                            |
 
