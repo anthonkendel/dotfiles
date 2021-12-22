@@ -26,22 +26,8 @@
   },
   "homepage": "https://github.com/anthonkendel/dotfiles#readme",
   "devDependencies": {
-    "@arbetsmyra/commitlint-config": "^1.0.0",
-    "@arbetsmyra/prettier-config": "^1.1.0",
-    "@commitlint/cli": "^8.3.5",
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5"
+    "@arbetsmyra/prettier-config": "1.2.1",
+    "prettier": "2.5.1"
   },
-  "commitlint": {
-    "extends": [
-      "@arbetsmyra"
-    ]
-  },
-  "prettier": "@arbetsmyra/prettier-config",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint:fix"
-    }
-  }
+  "prettier": "@arbetsmyra/prettier-config"
 }
