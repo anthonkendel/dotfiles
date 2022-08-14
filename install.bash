@@ -34,21 +34,4 @@ for file in $dotfiles; do
 done
 
 echo
-echo "Vscode extensions:"
-cat vscode_extensions
-echo
-read -p "Install vscode extensions (y/n)? " answer
-case ${answer:0:1} in
-    y|Y )
-        vscode_extensions=$(cat vscode_extensions)
-        for extension in $vscode_extensions; do
-            code --install-extension $extension
-        done
-        echo "Done"
-    ;;
-    * )
-    ;;
-esac
-
-echo
 echo "Please restart your terminal."
