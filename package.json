@@ -27,7 +27,7 @@
   "homepage": "https://github.com/anthonkendel/dotfiles#readme",
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.2.1",
-    "prettier": "^2.7.1"
+    "prettier": "2.7.1"
   },
   "prettier": "@arbetsmyra/prettier-config"
 }
