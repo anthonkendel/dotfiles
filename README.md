@@ -2,14 +2,15 @@
 
 Configuration files a.k.a dotfiles
 
-| File            | Description                                                                                          |
-| --------------- | ---------------------------------------------------------------------------------------------------- |
-| `.bash_aliases` | All bash aliases is seperated into its own file.                                                     |
-| `.bash_profile` | Bash configurations. _Some configurations is picked up from other repositories and some done by me._ |
-| `.bashrc`       | Sources `.bash_profile` if it exists.                                                                |
-| `.gitconfig`    | Git configurations and git aliases.                                                                  |
-| `.profile`      | Sources `.bash_profile` if it exists.                                                                |
-| `install.bash`  | Installs dotfiles.                                                                                   |
+| File            | Description                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------------ |
+| `.bash_aliases` | All bash aliases is separated into its own file.                                                       |
+| `.bash_profile` | Main entry point for interactive bash config; loads every module in `.bash.d/`, in numeric order.      |
+| `.bash.d/`      | Modular config split by concern (env, history, colors/prompt, completion, nvm, fzf, aliases, options). |
+| `.bashrc`       | Sources `.bash_profile` if it exists.                                                                  |
+| `.gitconfig`    | Git configurations and git aliases.                                                                    |
+| `.profile`      | Sources `.bash_profile` if it exists.                                                                  |
+| `install.bash`  | Installs dotfiles.                                                                                     |
 
 ## Development
 
@@ -24,4 +25,4 @@ Configuration files a.k.a dotfiles
 npm install
 ```
 
-When commiting, files will be tested with [Prettier](https://prettier.io/) and the commmit message with [commitlint](https://commitlint.js.org/#/) to enfore consistent style.
+When committing, files will be tested with [Prettier](https://prettier.io/) and the commit message with [commitlint](https://commitlint.js.org/#/) to enforce consistent style.
