@@ -20,13 +20,6 @@ export LESS_TERMCAP_so=$'\e[01;33m'     # begin standout (yellow)
 export LESS_TERMCAP_ue=$'\e[0m'         # reset underline
 export LESS_TERMCAP_us=$'\e[1;4;32m'    # begin underline (green)
 
-# --- FZF Integration Enhancements ---
-# Use ripgrep (rg) if installed for extremely fast file fuzzy finding
-if command -v rg >/dev/null 2>&1; then
-  export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'
-  export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-fi
-
 # --- Reload Alias ---
 # Quick command to source configurations and apply changes
 alias reload='source ~/.bash_profile && echo "Shell configuration reloaded successfully!"'
